@@ -6,6 +6,7 @@ const nextConfig = {
   basePath: '/rafay-portfolio', // your repo name
   assetPrefix: '/rafay-portfolio/', // make sure to include the trailing slash
   images: {
+    unoptimized: true,
     domains: ['github.com', 'avatars.githubusercontent.com', 'media.licdn.com'],
   },
 }
